@@ -1,0 +1,6 @@
+#!/bin/bash
+
+unset GIT_INDEX_FILE
+export GIT_WORK_TREE=/home/chris/
+export GIT_DIR=/home/chris/sandbox/dotfiles/.git/
+git checkout -f
